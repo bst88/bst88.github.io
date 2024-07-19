@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<meta http-equiv="pragma" content="no-cache">
+<title>百胜堂</title>
+<script type="text/javascript" src="88/jquery.min.js"></script>
+</head>
+<script>
+    var p = GetQueryString("p", window.location.search);
+    document.title = '百胜堂-' + p;
+    function GetQueryString(Name, UrlData) {
+        var reg = new RegExp("(^|&)" + Name + "=([^&]*)(&|$)", "i");
+        var r = UrlData.substr(1).match(reg);
+        var context = "";
+        if (r != null)
+            context = r[2];
+        reg = null;
+        r = null;
+        return context == null || context == "" || context == "undefined" ? "1" : context;
+    }
+var player = null;
+var j = '百胜堂';
+</script>
+<body>
+  <body style="background-color:#C7EDCC;">
+  </body>
+<div id="videopannel" style="position: fixed; top: 10px; left: 0px; right: 0px; z-index: 1500; "><div style="background:#C7EDCC;text-align:center;"><canvas id="videoCanvas" width="854" height="480" style="width: 2560px; height: 1440px;"></canvas></div></div>
+<script src="88/NodePlayer.min.js"></script>
+<script src="88/play.js"></script>
+<table width="100%" height="245" border="0">
+  <tr>
+    <td height="245">&nbsp;</td>
+  </tr>
+</table> 
+<table width="100%" border="0">
+  <tr>
+  </tr>
+</table>
+<div align="center" class="descr" font style="font-size:13px;color:#808080">百胜堂微投群于<b>2016</b>年微信群开盘!</div>
+<div align="center" class="descr" font style="font-size:13px;color:#808080">时至今日已有深厚的基础，足迹已遍及东南亚！</div>
+<div align="center" class="descr" font style="font-size:13px;color:#808080"><b>「稳健诚信、客户第一、 服务第一」</b></div>
+<div align="center" class="descr" font style="font-size:13px;color:#808080">是百胜堂，一直以来坚守的精神！</div>
+<div align="center"><img src="88/a1.png" width="252" height="123"></div>
+<div align="center" class="descr" font style="font-size:20px;color:#808080"><b>百胜堂旗下(密聊群)</b></div>
+<div align="center" class="descr" font style="font-size:16px;color:#808080">一群:美高梅二期（铂莱国际）1号台</div>
+<div align="center" class="descr" font style="font-size:16px;color:#808080">二群:卡卡湾（V台）</div>
+<div align="center" class="descr" font style="font-size:16px;color:#808080">密聊下载官网：www.mcall.vip</div>
+<div align="center" class="descr" font style="font-size:16px;color:#808080">百胜堂财务：zxrscw888</div>
+</body>
+</html>
+
